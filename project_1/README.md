@@ -71,7 +71,8 @@
 | RMSE (N) | ~47.9 кг/га |
 | RMSE (P) | ~9 кг/га |
 | RMSE (K) | ~20.15 кг/га |
-<img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/d820f0e2-6860-4279-a47b-af4ee4899cef" />
+<img width="1189" height="390" alt="image" src="https://github.com/user-attachments/assets/a0454a3d-4a3d-4b0e-b531-c371e949af5f" />
+
 
 ### Инструкция по запуску
 
