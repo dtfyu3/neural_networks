@@ -15,7 +15,7 @@ import argparse
 # КОНФИГУРАЦИЯ
 # ==========================================
 # Можно менять эти параметры
-DATA_DIR = '/content/data'     # Путь к данным
+DATA_DIR = os.path.join(os.getcwd(), "data")     # Путь к данным
 MODEL_SAVE_PATH = 'plant_classifier_resnet18.pth'
 PLOT_SAVE_PATH = 'training_plot.png'
 CM_SAVE_PATH = 'confusion_matrix.png'
@@ -210,4 +210,5 @@ def main():
     evaluate_and_save_reports(model, dataloaders, device, class_names)
 
 if __name__ == "__main__":
+
     main()
